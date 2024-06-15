@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+    background-image: linear-gradient(to top, rgb(82, 82, 235), white, white);
+    height: 900px;
+}
+
+.head {
+    height: 60px;
+    background-color: rgb(17, 17, 59);
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 550px;
+    padding-top: 20px;
+
+}
+
+.next {
+    height: 70px;
+    border: 1px solid black;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.next a {
+    float: right;
+    margin: 20px;
+    margin-right: 70px;
+    text-transform: inherit;
+    font-weight: 600;
+}
+.content {
+    height: 500px;
+    width: 600px;
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.content h1 {
+   color: rgb(35, 35, 130);
+    text-transform: capitalize;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 160px;
+    margin-left: 150px ;
+}
+.content p{
+    color: rgb(35, 35, 130);
+    text-transform: capitalize;
+    font-weight: 800;
+    font-style: italic;
+    margin-top: 60px;
+    margin-left: 150px ;
+    
+
+}
+.next button{
+    float: right;
+    margin: 20px;
+    margin-right: 50px;
+    background-color: rgb(28, 28, 118);
+    color: white;
+    border:   rgb(17, 17, 59) solid 2px;
+    border-radius: 40px;
+}
+.image {
+    height: 500px;
+    width: 600px;
+    display: inline-block;
+    background-image: url(educ.jpeg);
+    background-size: cover;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.footone {
+    height: 200px;
+    background-color: rgb(9, 120, 120);
+    width: 300px;
+    display: inline-block;
+    border: 5px solid rgb(9, 120, 120);
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.foottwo {
+    height: 200px;
+    background-color: darkgoldenrod;
+    width: 300px;
+    display: inline-block;
+    margin-left: 130px;
+    border: 5px solid darkgoldenrod;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.footthree {
+    height: 200px;
+    background-color: rgb(20, 20, 158);
+    width: 300px;
+    display: inline-block;
+    margin-left: 150px;
+    border: 5px solid rgb(20, 20, 158);
+    border-radius: 50px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 20px;
+    
+}
+.footone h2 {
+    margin-top: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: white;
+}
+.foottwo h2{
+    margin-top: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: white;
+}
+.footthree h2{
+    margin-top: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: white;
+}
+p{
+    margin-top: 50px;
+    margin-top: 50px;
+    text-transform: capitalize;
+    color: white;
+}
